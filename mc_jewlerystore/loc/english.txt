@@ -1,2 +1,6 @@
 {
+	"heist_mc_jewlerystore_name":		" ",
+	"heist_mc_jewlerystore_brief":		" ",
+	"heist_mc_jewlerystorelvl_name":		" ",
+	"heist_mc_jewlerystorelvl_brief":		" "
 }
