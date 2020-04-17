@@ -3,7 +3,6 @@
 		<sequence editable_state="true" name="'state_hide'" triggable="true">
 			<body enabled="false" name="'static_body'"/>
 			<object enabled="false" name="'g_g'"/>
-			<interaction enabled="false"/>
 		</sequence>
 		<sequence editable_state="true" name="'state_show'" triggable="true">
 			<object enabled="true" name="'g_g'"/>
@@ -16,9 +15,13 @@
 			<interaction enabled="true"/>
 			<run_sequence name="'state_hide'"/>
 		</sequence>
+		<sequence editable_state="true" name="'hide_and_disable'" triggable="true">
+			<interaction enabled="false"/>
+			<run_sequence name="'state_hide'"/>
+		</sequence>
 		<sequence editable_state="false" name="'interact'" triggable="false">
 			<run_sequence name="'interaction_disable'"/>
-			<run_sequence name="'state_hide'"/>
+			<run_sequence name="'state_show'"/>
 		</sequence>
 	</unit>
 </table>

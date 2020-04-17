@@ -3,7 +3,6 @@
 		<sequence editable_state="true" name="'state_hide'" triggable="true">
 			<body enabled="false" name="'static_body'"/>
 			<object enabled="false" name="'stick'"/>
-			<interaction enabled="false"/>
 		</sequence>
 		<sequence editable_state="true" name="'state_show'" triggable="true">
 			<object enabled="true" name="'stick'"/>
@@ -14,6 +13,10 @@
 		</sequence>
 		<sequence editable_state="true" name="'interaction_enable'" triggable="true">
 			<interaction enabled="true"/>
+			<run_sequence name="'state_hide'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_and_disable'" triggable="true">
+			<interaction enabled="false"/>
 			<run_sequence name="'state_hide'"/>
 		</sequence>
 		<sequence editable_state="false" name="'interact'" triggable="false">

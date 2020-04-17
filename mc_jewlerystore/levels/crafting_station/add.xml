@@ -205,10 +205,10 @@
 		<object path="units/pd2_mod_craft/props/button" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/button" unload="true"/>
 	</add>
-	<add path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" type="unit">
-		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
-		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
-		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
-		<sequence_manager path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
-	</add>
+	<texture path="guis/stick_equipment" unload="true"/>
+	<texture path="guis/cobblestone_equipment" unload="true"/>
+	<texture path="guis/ladder_equipment" unload="true"/>
+	<texture path="guis/lever_equipment" unload="true"/>
+	<texture path="guis/mc_drill_equipment" unload="true"/>
+	<texture path="guis/tnt_equipment" unload="true"/>
 </table>

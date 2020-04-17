@@ -2,5 +2,18 @@
 	"heist_mc_jewlerystore_name":		" ",
 	"heist_mc_jewlerystore_brief":		" ",
 	"heist_mc_jewlerystorelvl_name":		" ",
-	"heist_mc_jewlerystorelvl_brief":		" "
+	"heist_mc_jewlerystorelvl_brief":		" ",
+	
+	"hud_int_equipment_stick" : "Stick",
+	"hud_int_equipment_cobblestone" : "Cobblestone",
+	"hud_int_equipment_ladder" : "Ladder",
+	"hud_int_equipment_lever" : "Lever",
+	"hud_int_equipment_mc_drill" : "Drill",
+	"hud_int_equipment_tnt" : "TNT",
+	
+	"hud_action_craft" : "Crafting...",
+	"hud_int_hold_stick" : "Hold $BTN_INTERACT to add a stick",
+	"hud_equipment_need_stick" : "Need a stick",
+	"hud_int_hold_cobblestone" : "Hold $BTN_INTERACT to add cobblestone",
+	"hud_equipment_need_cobblestone" : "Need cobblestone"
 }
