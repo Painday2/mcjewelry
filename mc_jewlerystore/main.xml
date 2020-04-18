@@ -1,5 +1,5 @@
 <table name="mc_jewlerystore">
-	<level ai_group_type="america" id="mc_jewlerystorelvl" max_bags="54">
+	<level ai_group_type="minecraft" id="mc_jewlerystorelvl" max_bags="54">
 		<add file="levels/mc_jewlerystorelvl/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -11,6 +11,8 @@
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 		</hooks>
 		<include directory="levels/mc_jewlerystorelvl">
 			<file file="world.world" type="binary"/>
@@ -35,6 +37,7 @@
 			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
 			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
 			<value_node value="levels/instances/unique/chill/matt/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -42,7 +45,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="crafting_station" max_bags="54">
+	<level ai_group_type="minecraft" id="crafting_station" max_bags="54">
 		<add file="levels/crafting_station/add.xml"/>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
