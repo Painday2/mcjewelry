@@ -3,9 +3,18 @@
 	<extensions>
 		<extension class="ScriptUnitData" name="unit_data" />
 		<extension name="damage" class="UnitDamage" />
-	    <extension name="interaction" class="UseInteractionExt">
-			<var name="tweak_data" value="push_button" />
-			<var name="_interact_object" value="interact"/>
+	    <extension name="interaction" class="CarryInteractionExt">
+		  <var name="tweak_data" value="gen_pku_jewelry" />
+		  <var name="_interact_object" value="interact"/>
+			<var name="_ray_object_names" type="table" >
+				<!-- <var value="a_ray_object_1"/> -->
+				<!-- <var value="a_ray_object_2"/> -->
+			</var>
+		  <var name="_remove_on_interact" value="true" />
+		  <var name="_global_event" value="pku_jewelry" />
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="diamonds" />
 		</extension>
 	</extensions>
 </unit>

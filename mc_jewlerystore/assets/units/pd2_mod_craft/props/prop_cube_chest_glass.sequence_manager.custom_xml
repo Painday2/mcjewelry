@@ -1,5 +1,33 @@
 <table>
     <unit>    
+        <variables>
+            <var_spawned_bag value="0"/>
+        </variables>
+        <filter name="'filter_bag_not_spawned'">
+            <check value="vars.var_spawned_bag == 0"/>
+        </filter>
+        <sequence editable_state="true" name="'spawn_bagable_items'" triggable="true">
+            <run_sequence name=" 'int_seq_spawn_bag_v'..pick('1','2')"/>
+            <set_variables var_spawned_bag="1"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_bag_v1'" triggable="false">
+            <run_sequence name=" 'int_seq_spawn_'..pick('011','021')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_bag_v2'" triggable="false">
+            <run_sequence name=" 'int_seq_spawn_'..pick('012','022')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_011'" triggable="false">
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_021'" triggable="false">
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_012'" triggable="false">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_022'" triggable="false">
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald')" rotation="object_rot('rp_emerald')"/>
+        </sequence>
         <sequence editable_state="true" name="'opened'" triggable="true">
             <interaction enabled="false"/>
             <effect name="'effects/payday2/particles/window/jewelry_counter_1'" parent="object( 'e_glass_01' )" position="v()"/>
