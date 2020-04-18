@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/material_master" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/mc_pku_gunpowder" />
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object collision_type="convex" name="g_blue" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_all" culling_object="co_culling" enabled="true">
+			<object	name="g_blue"			enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

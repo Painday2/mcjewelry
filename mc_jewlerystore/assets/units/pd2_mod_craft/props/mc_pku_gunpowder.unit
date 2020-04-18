@@ -1,0 +1,13 @@
+<unit type="mine" slot="1">
+	<object file="units/pd2_mod_craft/props/mc_pku_gunpowder" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+        <extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="muriatic_acid" />
+			<var name="_interact_object" value="interaction"/>
+			<var name="_global_event" value="keycard" />
+		</extension>
+	</extensions>
+</unit>

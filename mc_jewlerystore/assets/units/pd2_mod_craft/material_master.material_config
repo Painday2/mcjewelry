@@ -755,5 +755,31 @@
 	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
 	<variable value="0.5" type="scalar" name="alpha_ref"/>
 	</material>
+	<material name="diamond" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/diamond"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="emerald" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/emerald"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="sugar" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/gunpowder"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material name="mtl_iron" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/ironingot"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
 
 </materials>

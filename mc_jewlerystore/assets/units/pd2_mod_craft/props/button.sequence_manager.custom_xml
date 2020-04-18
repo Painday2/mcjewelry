@@ -1,0 +1,33 @@
+<table>
+    <unit>    
+        <sequence editable_state="true" name="'start'" triggable="true">
+            <body enabled="true" name="'button_body'"/>
+            <body enabled="false" name="'button_pressed'"/>
+            <object    enabled="true"    name="'button'"/>
+            <object    enabled="false"    name="'button_pressed'"/>
+        </sequence>
+        <sequence editable_state="true" name="'interact'" triggable="true">
+            <run_sequence name="'button_pressed'"/>
+        </sequence>
+        <sequence editable_state="true" name="'button_pressed'" triggable="true">
+            <body enabled="false" name="'button_body'"/>
+            <body enabled="true" name="'button_open'"/>
+            <object    enabled="true"    name="'button_pressed'"/>
+            <object    enabled="false"    name="'button'"/>
+        </sequence>
+        <sequence editable_state="true" name="'button_unpressed'" triggable="true">
+            <body enabled="false" name="'button_pressed'"/>
+            <body enabled="true" name="'button_body'"/>
+            <object    enabled="true"    name="'button'"/>
+            <object    enabled="false"    name="'button_pressed'"/>
+        </sequence>
+        <sequence name="'enable_interact'" triggable="true">
+            <interaction enabled="false"/>
+        </sequence>
+        <sequence name="'disable_interact'" triggable="true">
+            <interaction enabled="false"/>
+        </sequence>
+    </unit>
+</table>
+
+

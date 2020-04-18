@@ -1,0 +1,12 @@
+<unit type="mine" slot="1">
+	<object file="units/pd2_mod_craft/props/goldingot" orientation_object="rp_root" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+		    <var name="tweak_data" value="muriatic_acid" />
+            <var name="_interact_object" value="interaction"/>
+        </extension>
+	</extensions>
+</unit>

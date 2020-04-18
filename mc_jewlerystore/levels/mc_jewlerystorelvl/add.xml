@@ -192,6 +192,32 @@
 		<model path="units/pd2_mod_craft/props/prop_cube_tnt" />
 		<object path="units/pd2_mod_craft/props/prop_cube_tnt" />
 		<texture path="units/pd2_mod_craft/props/prop_cube_tnt_df" />
+		<material_config path="units/pd2_mod_craft/material_secondary" unload="true"/>
+		<model path="units/pd2_mod_craft/props/goldingot" unload="true"/>
+		<object path="units/pd2_mod_craft/props/goldingot" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/goldingot" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/goldingot" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/goldingot"/>
+		<model path="units/pd2_mod_craft/props/ironingot" unload="true"/>
+		<object path="units/pd2_mod_craft/props/ironingot" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/ironingot" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/ironingot" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/ironingot"/>
+		<model path="units/pd2_mod_craft/props/mc_pku_gunpowder" unload="true"/>
+		<object path="units/pd2_mod_craft/props/mc_pku_gunpowder" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/gunpowder" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/mc_pku_gunpowder" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/mc_pku_gunpowder"/>
+		<model path="units/pd2_mod_craft/props/emerald" unload="true"/>
+		<object path="units/pd2_mod_craft/props/emerald" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/emerald" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/emerald" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/emerald"/>
+		<model path="units/pd2_mod_craft/props/diamond" unload="true"/>
+		<object path="units/pd2_mod_craft/props/diamond" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/diamond" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/diamond" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/diamond"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
