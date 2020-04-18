@@ -503,4 +503,74 @@
 		<sequence_manager path="units/world/props/melee_box/melee_box" unload="true"/>
 		<model force="true" path="units/world/props/melee_box/melee_box" unload="true"/>
 	</add>
+	<add>
+		<unit path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
+		<unit path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_captainsparklez/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_captainsparklez/body_nm" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
+		<unit path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_herobrine/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_herobrine/body_nm" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
+		<unit path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_karacorvus/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_karacorvus/body_nm" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
+		<unit path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_pewdiepie/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_pewdiepie/body_nm" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
+		<unit path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_sethbling/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_sethbling/body_nm" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
+		<unit path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_shubbleyt/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_shubbleyt/body_nm" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
+		<unit path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_technoblade/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_technoblade/body_nm" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
+	</add>
 </table>
