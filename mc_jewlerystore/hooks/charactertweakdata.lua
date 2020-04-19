@@ -1,3 +1,15 @@
+function CharacterTweakData:_init_region_minecraft()
+	self._default_chatter = "dispatch_generic_message"
+	self._unit_prefixes = {
+		cop = "l",
+		swat = "l",
+		heavy_swat = "l",
+		taser = "tsr",
+		cloaker = "clk",
+		bulldozer = "bdz",
+		medic = "mdc"
+	}
+end
 function CharacterTweakData:character_map()
 	local char_map = {
 		basic = {
@@ -500,13 +512,6 @@ function CharacterTweakData:character_map()
 		mc_jewlerystorelvl = {
 			path = "units/pd2_mod_craft/characters/",
 			list = {
-				"civ_captainsparklez",
-				"civ_herobrine",
-				"civ_karacorvus",
-				"civ_pewdiepie",
-				"civ_sethbling",
-				"civ_shubbleyt",
-				"civ_technoblade",
 				"ene_mc_city_heavy_g36",
 				"ene_mc_city_heavy_r870",
 				"ene_mc_city_swat_1",
