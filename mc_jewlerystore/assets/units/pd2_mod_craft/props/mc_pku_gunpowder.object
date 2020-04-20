@@ -9,7 +9,7 @@
 	</bodies>
 	
 	<graphics>
-		<graphic_group name="g_all" culling_object="co_culling" enabled="true">
+		<graphic_group name="g_all" culling_object="g_blue" enabled="true">
 			<object	name="g_blue"			enabled="true" shadow_caster="true"/>
 		</graphic_group>
 	</graphics>
