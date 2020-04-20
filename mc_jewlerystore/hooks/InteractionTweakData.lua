@@ -63,4 +63,11 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "bar_insert_printingplates_finished",
 		equipment_consume = true
 	}
+	
+	self.use_lever = {
+		text_id = "hud_int_use_lever",
+		action_text_id = "hud_action_use_lever",
+		timer = 0.5,
+		start_active = false
+	}
 end)
