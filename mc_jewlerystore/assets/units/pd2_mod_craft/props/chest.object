@@ -4,8 +4,10 @@
 	
 	<bodies>
 		<body name="chest_body" enabled="true" template="static">
-			<object collision_type="mesh_mopp" name="chest_top" />
 			<object collision_type="mesh_mopp" name="chest_bottom" />
+		</body>
+		<body name="chest_top" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="chest_top" />
 		</body>
 		<body name="chest_open" enabled="true" template="static">
 			<object collision_type="mesh_mopp" name="chest_open" />

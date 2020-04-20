@@ -2,13 +2,13 @@
     <unit>    
         <sequence editable_state="true" name="'show'" triggable="true">
             <body enabled="true" name="'chest_top'"/>
-            <body enabled="true" name="'chest_bottom'"/>
+            <body enabled="true" name="'chest_body'"/>
             <body enabled="false" name="'chest_open'"/>
             <object    enabled="true"    name="'chest_top'"/>
             <object    enabled="true"    name="'chest_bottom'"/>
             <object    enabled="false"    name="'chest_open'"/>
         </sequence>
-		<sequence editable_state="true" name="'hide'" triggable="true">
+        <sequence editable_state="true" name="'hide'" triggable="true">
             <body enabled="false" name="'chest_top'"/>
             <body enabled="false" name="'chest_bottom'"/>
             <body enabled="false" name="'chest_open'"/>
@@ -30,6 +30,78 @@
             <body enabled="true" name="'chest_top'"/>
             <object    enabled="true"    name="'chest_top'"/>
             <object    enabled="false"    name="'chest_open'"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_gold4'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot2')" rotation="object_rot('rp_ingot2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot3')" rotation="object_rot('rp_ingot3')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot4')" rotation="object_rot('rp_ingot4')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_gold3'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot2')" rotation="object_rot('rp_ingot2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot3')" rotation="object_rot('rp_ingot3')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_gold2'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot2')" rotation="object_rot('rp_ingot2')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_gold1'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_iron4'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot2')" rotation="object_rot('rp_ingot2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot3')" rotation="object_rot('rp_ingot3')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot4')" rotation="object_rot('rp_ingot4')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_iron3'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot2')" rotation="object_rot('rp_ingot2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot3')" rotation="object_rot('rp_ingot3')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_iron2'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot2')" rotation="object_rot('rp_ingot2')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_iron1'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+        </sequence>
+         <sequence editable_state="false" name="'int_seq_spawn_dia4'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond2')" rotation="object_rot('rp_diamond2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond3')" rotation="object_rot('rp_diamond3')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond4')" rotation="object_rot('rp_diamond4')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_dia3'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond2')" rotation="object_rot('rp_diamond2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond3')" rotation="object_rot('rp_diamond3')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_dia2'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond2')" rotation="object_rot('rp_diamond2')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_dia1'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_emrld4'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald')" rotation="object_rot('rp_emerald')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald2')" rotation="object_rot('rp_emerald2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald3')" rotation="object_rot('rp_emerald3')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald4')" rotation="object_rot('rp_emerald4')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_emrld3'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald')" rotation="object_rot('rp_emerald')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald2')" rotation="object_rot('rp_emerald2')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald3')" rotation="object_rot('rp_emerald3')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_emrld2'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald')" rotation="object_rot('rp_emerald')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald2')" rotation="object_rot('rp_emerald2')"/>
+        </sequence>
+        <sequence editable_state="false" name="'int_seq_spawn_emrld1'" triggable="false">
+            <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald')" rotation="object_rot('rp_emerald')"/>
         </sequence>
     </unit>
 </table>
