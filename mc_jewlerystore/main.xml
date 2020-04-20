@@ -14,6 +14,7 @@
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="levelstweakdata.lua" source_file="lib/tweak_data/levelstweakdata"/>
+			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 		</hooks>
 		<include directory="levels/mc_jewlerystorelvl">
 			<file file="world.world" type="binary"/>
@@ -41,7 +42,7 @@
 			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
 			<value_node value="levels/instances/unique/dark/train_numbers/world/world"/>
 			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
-			<value_node value="levels/narratives/safehouse/safehouse_worldmesh/safehouse_worldmesh"/>
+			<value_node value="levels/narratives/vlad/jewelry_store/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
