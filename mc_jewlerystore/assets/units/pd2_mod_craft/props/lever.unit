@@ -4,9 +4,5 @@
 	<extensions>
 		<extension class="ScriptUnitData" name="unit_data" />
 		<extension name="damage" class="UnitDamage" />
-	    <extension name="interaction" class="UseInteractionExt">
-			<var name="tweak_data" value="use_lever" />
-			<var name="_interact_object" value="interact"/>
-		</extension>
 	</extensions>
 </unit>

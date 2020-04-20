@@ -15,5 +15,15 @@
 	"hud_int_hold_stick" : "Hold $BTN_INTERACT to add a stick",
 	"hud_equipment_need_stick" : "Need a stick",
 	"hud_int_hold_cobblestone" : "Hold $BTN_INTERACT to add cobblestone",
-	"hud_equipment_need_cobblestone" : "Need cobblestone"
+	"hud_equipment_need_cobblestone" : "Need cobblestone",
+	"hud_int_hold_lever" : "Hold $BTN_INTERACT to add Lever",
+	"hud_equipment_need_lever" : "Need a Lever",
+	"hud_int_hold_ladder" : "Hold $BTN_INTERACT to add Ladder",
+	"hud_equipment_need_ladder" : "Need a Ladder",
+	"hud_int_hold_gunpowder" : "Hold $BTN_INTERACT to add Gunpowder",
+	"hud_equipment_need_gunpowder" : "Need Gunpowder",
+	"hud_int_hold_sand" : "Hold $BTN_INTERACT to add Sand",
+	"hud_equipment_need_sand" : "Need Sand",
+	"hud_int_hold_tnt" : "Hold $BTN_INTERACT to add TNT",
+	"hud_equipment_need_tnt" : "Need TNT"
 }

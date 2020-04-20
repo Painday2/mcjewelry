@@ -5,7 +5,7 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
         <extension name="interaction" class="UseInteractionExt">
-			<var name="tweak_data" value="muriatic_acid" />
+			<var name="tweak_data" value="hold_place_gunpowder" />
 			<var name="_interact_object" value="interaction"/>
 			<var name="_global_event" value="keycard" />
 		</extension>
