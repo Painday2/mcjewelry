@@ -1,5 +1,11 @@
 <table>
-    <unit>    
+    <unit>   
+        <variables>
+            <var_spawned_bag value="0"/>
+        </variables>
+        <filter name="'filter_bag_not_spawned'">
+            <check value="vars.var_spawned_bag == 0"/>
+        </filter> 
         <sequence editable_state="true" name="'show'" triggable="true">
             <body enabled="true" name="'chest_top'"/>
             <body enabled="true" name="'chest_body'"/>
@@ -32,7 +38,7 @@
             <object    enabled="false"    name="'chest_open'"/>
         </sequence>
 		<sequence editable_state="true" name="'spawn_bagable_items'" triggable="true">
-            <run_sequence name=" 'int_seq_spawn_bag_v'..pick('1','2','3')"/>
+            <run_sequence filter="'filter_bag_not_spawned'" name=" 'int_seq_spawn_bag_v'..pick('1','2','3')"/>
             <set_variables var_spawned_bag="1"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_bag_v1'" triggable="false">
@@ -85,18 +91,22 @@
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond2')" rotation="object_rot('rp_diamond2')"/>
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond3')" rotation="object_rot('rp_diamond3')"/>
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond4')" rotation="object_rot('rp_diamond4')"/>
+            <set_variables var_spawned_bag="1"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_dia3'" triggable="true">
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond2')" rotation="object_rot('rp_diamond2')"/>
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond3')" rotation="object_rot('rp_diamond3')"/>
+            <set_variables var_spawned_bag="1"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_dia2'" triggable="true">
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond2')" rotation="object_rot('rp_diamond2')"/>
+            <set_variables var_spawned_bag="1"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_dia1'" triggable="true">
             <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
+            <set_variables var_spawned_bag="1"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_emrld4'" triggable="false">
             <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald')" rotation="object_rot('rp_emerald')"/>
