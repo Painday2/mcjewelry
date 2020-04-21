@@ -17,16 +17,18 @@
             <run_sequence name=" 'int_seq_spawn_'..pick('012','022')"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_011'" triggable="false">
-            <spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_021'" triggable="false">
             <spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_012'" triggable="false">
-            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
         </sequence>
         <sequence editable_state="false" name="'int_seq_spawn_022'" triggable="false">
             <spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_emerald')" rotation="object_rot('rp_emerald')"/>
+        </sequence>
+		 <sequence editable_state="false" name="'diamond'" triggable="true">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_diamond')" rotation="object_rot('rp_diamond')"/>
         </sequence>
         <sequence editable_state="true" name="'opened'" triggable="true">
             <interaction enabled="false"/>

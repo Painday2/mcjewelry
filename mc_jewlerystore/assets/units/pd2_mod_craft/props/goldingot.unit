@@ -15,7 +15,7 @@
 		  <var name="_global_event" value="pku_jewelry" />
 		</extension>
 		<extension name="carry_data" class="CarryData">
-			<var name="_carry_id" value="diamonds" />
+			<var name="_carry_id" value="gold_block" />
 		</extension>
 	</extensions>
 </unit>

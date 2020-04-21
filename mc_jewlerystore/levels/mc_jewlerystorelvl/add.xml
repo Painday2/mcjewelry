@@ -237,6 +237,22 @@
 		<object path="units/pd2_mod_craft/props/lever"/>
 		<unit path="units/pd2_mod_craft/props/lever"/>
 		<sequence_manager path="units/pd2_mod_craft/props/lever"/>
+		
+		<model path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_gold_block_df"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_emerald_block_df"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_diamond_block_df"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
