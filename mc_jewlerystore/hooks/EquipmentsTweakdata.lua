@@ -42,4 +42,11 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		icon = "equipment_tnt",
 		text_id = "hud_int_equipment_tnt"
 	}
+	self.specials.tripwire_key = {
+		sync_possession = true,
+		action_message = "tripwire_key_obtained",
+		transfer_quantity = 4,
+		text_id = "hud_int_equipment_pickup_keycard",
+		icon = "equipment_bank_manager_key"
+	}
 end)

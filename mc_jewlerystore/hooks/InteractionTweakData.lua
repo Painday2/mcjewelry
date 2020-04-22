@@ -92,4 +92,20 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		axis = "y",
 		action_text_id = "hud_action_placing_drill"
 	}
+
+	self.cmdblk_keycard = {
+		icon = "equipment_bank_manager_key",
+		text_id = "hud_int_cmdblk_keycard",
+		equipment_text_id = "hud_int_cmdblk_no_keycard",
+		special_equipment = "tripwire_key",
+		equipment_consume = true,
+		start_active = false,
+		axis = "z"
+	}
+	
+	self.pickup_tripwire_key = {
+		text_id = "hud_int_pickup_tripwire_key",
+		sound_done = "pick_up_key_card",
+		blocked_hint = "full_keycard"
+	}
 end)

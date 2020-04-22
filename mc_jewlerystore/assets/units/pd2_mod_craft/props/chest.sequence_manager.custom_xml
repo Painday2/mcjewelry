@@ -16,7 +16,7 @@
         </sequence>
         <sequence editable_state="true" name="'hide'" triggable="true">
             <body enabled="false" name="'chest_top'"/>
-            <body enabled="false" name="'chest_bottom'"/>
+            <body enabled="false" name="'chest_body'"/>
             <body enabled="false" name="'chest_open'"/>
             <object    enabled="false"    name="'chest_top'"/>
             <object    enabled="false"    name="'chest_bottom'"/>
