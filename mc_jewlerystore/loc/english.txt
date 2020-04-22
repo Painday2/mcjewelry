@@ -14,7 +14,11 @@
 	"hud_int_equipment_lever" : "Lever",
 	"hud_int_equipment_mc_drill" : "Drill",
 	"hud_int_equipment_tnt" : "TNT",
+	"hud_int_equipment_tripwire_key" : "Tripwire Key",
 	
+	"hud_int_pickup_tripwire_key" : "Press $BTN_INTERACT to pickup the Tripwire key",
+	"hud_int_cmdblk_keycard" : "Press $BTN_INTERACT to disable displaycase alarm",
+	"hud_int_cmdblk_no_keycard" : "You need a Tripwire key",
 	"hud_int_equipment_need_drill" : "You need to craft a drill",
 	"hud_action_craft" : "Crafting...",
 	"hud_int_hold_stick" : "Hold $BTN_INTERACT to add a stick",
@@ -30,5 +34,24 @@
 	"hud_int_hold_sand" : "Hold $BTN_INTERACT to add Sand",
 	"hud_equipment_need_sand" : "Need Sand",
 	"hud_int_hold_tnt" : "Hold $BTN_INTERACT to add TNT",
-	"hud_equipment_need_tnt" : "You need to craft TNT"
+	"hud_equipment_need_tnt" : "You need to craft TNT",
+	
+	"mcj_obj1" : "Get to the back of the store ",
+	"mcj_obj2" : "Disable External alarm",
+	"mcj_obj3" : "Disable displaycase alarms",
+	"mcj_obj4" : "Wait for twitch to return",
+	"mcj_obj4_1" : "Secure Diamond blocks",
+	"mcj_obj4_2" : "Secure Diamond blocks",
+	"mcj_obj4_3" : "Secure Diamond blocks",
+	"mcj_obj4_4" : "Secure Diamond blocks",
+	"mcj_obj5" : "Escape or grab more",
+	"mcj_obj1_desc" : "",
+	"mcj_obj2_desc" : "",
+	"mcj_obj3_desc" : "",
+	"mcj_obj4_desc" : "",
+	"mcj_obj4_1_desc" : "",
+	"mcj_obj4_2_desc" : "",
+	"mcj_obj4_3_desc" : "",
+	"mcj_obj4_4_desc" : "",
+	"mcj_obj5_desc" : ""
 }

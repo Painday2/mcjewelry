@@ -293,6 +293,7 @@
 	<texture path="guis/lever_equipment" unload="true"/>
 	<texture path="guis/mc_drill_equipment" unload="true"/>
 	<texture path="guis/tnt_equipment" unload="true"/>
+	<texture path="guis/tripwire_equipment" unload="true"/>
 	<add>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36_husk" unload="true"/>
@@ -647,11 +648,5 @@
 		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-	</add>
-	<add path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" type="unit">
-		<unit path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
-		<object path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
-		<material_config path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
-		<sequence_manager path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
 	</add>
 </table>

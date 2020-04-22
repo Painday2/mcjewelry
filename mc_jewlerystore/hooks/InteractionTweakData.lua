@@ -105,6 +105,10 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 	
 	self.pickup_tripwire_key = {
 		text_id = "hud_int_pickup_tripwire_key",
+		requires_mask_off_upgrade = {
+			upgrade = "mask_off_pickup",
+			category = "player"
+		},
 		sound_done = "pick_up_key_card",
 		blocked_hint = "full_keycard"
 	}

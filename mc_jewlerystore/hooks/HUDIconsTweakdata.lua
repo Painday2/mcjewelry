@@ -59,4 +59,14 @@ Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
 			300
 		}
 	}
+	
+	self.equipment_tripwire = {
+		texture = "guis/tripwire_equipment",
+		texture_rect = {
+			0,
+			0,
+			104,
+			104
+		}
+	}
 end)
