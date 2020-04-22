@@ -237,7 +237,6 @@
 		<object path="units/pd2_mod_craft/props/lever"/>
 		<unit path="units/pd2_mod_craft/props/lever"/>
 		<sequence_manager path="units/pd2_mod_craft/props/lever"/>
-		
 		<model path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
 		<unit path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
@@ -256,6 +255,7 @@
 		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_diamond_block_df"/>
+		<texture path="units/pd2_mod_craft/props/textures/lever"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
@@ -290,9 +290,9 @@
 		<texture path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/body_nm" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_city_heavy_r870/ene_mc_city_heavy_r870" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_city_heavy_r870/ene_mc_city_heavy_r870_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 	</add>
@@ -307,9 +307,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_city_swat_3/ene_mc_city_swat_3_husk" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_city_swat_r870/ene_mc_city_swat_r870" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_city_swat_r870/ene_mc_city_swat_r870_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_city_swat_1/ene_mc_city_swat_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_city_swat_1/ene_mc_city_swat_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_city_swat_1/ene_mc_city_swat_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_city_swat_1/ene_mc_city_swat_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_city_swat_1/ene_mc_city_swat_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_city_swat_1/ene_mc_city_swat_1" unload="true"/>
 	</add>
@@ -342,9 +342,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/ene_mc_bulldozer_1_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/ene_mc_bulldozer_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/ene_mc_bulldozer_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/ene_mc_bulldozer_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/ene_mc_bulldozer_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/ene_mc_bulldozer_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_bulldozer_1/ene_mc_bulldozer_1" unload="true"/>
 	</add>
@@ -353,9 +353,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/ene_mc_bulldozer_2_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/ene_mc_bulldozer_2" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/ene_mc_bulldozer_2" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/ene_mc_bulldozer_2_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/ene_mc_bulldozer_2" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/ene_mc_bulldozer_2" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_bulldozer_2/ene_mc_bulldozer_2" unload="true"/>
 	</add>
@@ -364,9 +364,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/ene_mc_bulldozer_3_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/ene_mc_bulldozer_3" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/ene_mc_bulldozer_3" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/ene_mc_bulldozer_3_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/ene_mc_bulldozer_3" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/ene_mc_bulldozer_3" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_bulldozer_3/ene_mc_bulldozer_3" unload="true"/>
 	</add>
@@ -377,9 +377,9 @@
 		<texture path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_1/body_nm" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_r870/ene_mc_fbi_heavy_r870" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_r870/ene_mc_fbi_heavy_r870_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_1/ene_mc_fbi_heavy_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_1/ene_mc_fbi_heavy_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_1/ene_mc_fbi_heavy_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_1/ene_mc_fbi_heavy_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_1/ene_mc_fbi_heavy_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_fbi_heavy_1/ene_mc_fbi_heavy_1" unload="true"/>
 	</add>
@@ -390,9 +390,9 @@
 		<texture path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/body_nm" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_2/ene_mc_fbi_swat_2" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_2/ene_mc_fbi_swat_2_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/ene_mc_fbi_swat_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/ene_mc_fbi_swat_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/ene_mc_fbi_swat_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/ene_mc_fbi_swat_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/ene_mc_fbi_swat_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/ene_mc_fbi_swat_1" unload="true"/>
 	</add>
@@ -401,9 +401,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_guard_1/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_guard_1/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
 	</add>
@@ -412,9 +412,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_guard_2/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_guard_2/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2" unload="true"/>
 	</add>
@@ -425,9 +425,9 @@
 		<texture path="units/pd2_mod_craft/characters/ene_mc_medic_m4/body_nm" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_medic_r870/ene_mc_medic_r870" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_medic_r870/ene_mc_medic_r870_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4" unload="true"/>
 	</add>
@@ -446,9 +446,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_spook_1/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_spook_1/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1" unload="true"/>
 	</add>
@@ -459,9 +459,9 @@
 		<texture path="units/pd2_mod_craft/characters/ene_mc_swat_1/body_nm" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_swat_2/ene_mc_swat_2" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_swat_2/ene_mc_swat_2_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_swat_1/ene_mc_swat_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_swat_1/ene_mc_swat_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_swat_1/ene_mc_swat_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_swat_1/ene_mc_swat_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_swat_1/ene_mc_swat_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_swat_1/ene_mc_swat_1" unload="true"/>
 	</add>
@@ -472,9 +472,9 @@
 		<texture path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_1/body_nm" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_r870/ene_mc_swat_heavy_r870" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_r870/ene_mc_swat_heavy_r870_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_1/ene_mc_swat_heavy_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_1/ene_mc_swat_heavy_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_1/ene_mc_swat_heavy_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_1/ene_mc_swat_heavy_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_1/ene_mc_swat_heavy_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_swat_heavy_1/ene_mc_swat_heavy_1" unload="true"/>
 	</add>
@@ -483,9 +483,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_tazer_1/ene_mc_tazer_1_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_tazer_1/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_tazer_1/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_tazer_1/ene_mc_tazer_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_tazer_1/ene_mc_tazer_1" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_tazer_1/ene_mc_tazer_1_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_tazer_1/ene_mc_tazer_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_tazer_1/ene_mc_tazer_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_tazer_1/ene_mc_tazer_1" unload="true"/>
 	</add>
@@ -498,9 +498,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer_2/ene_mc_zeal_bulldozer_2_husk" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer_3/ene_mc_zeal_bulldozer_3" unload="true"/>
 		<unit path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer_3/ene_mc_zeal_bulldozer_3_husk" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer/ene_mc_zeal_bulldozer" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer/ene_mc_zeal_bulldozer" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer/ene_mc_zeal_bulldozer_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer/ene_mc_zeal_bulldozer" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer/ene_mc_zeal_bulldozer" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer/ene_mc_zeal_bulldozer" unload="true"/>
 	</add>
@@ -509,9 +509,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat" unload="true"/>
 	</add>
@@ -520,9 +520,9 @@
 		<unit path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy" unload="true"/>
 	</add>
@@ -552,9 +552,9 @@
 		<unit path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_captainsparklez/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_captainsparklez/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
 	</add>
@@ -563,9 +563,9 @@
 		<unit path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_herobrine/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_herobrine/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
 	</add>
@@ -574,9 +574,9 @@
 		<unit path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_karacorvus/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_karacorvus/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus" unload="true"/>
 	</add>
@@ -585,9 +585,9 @@
 		<unit path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_pewdiepie/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_pewdiepie/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie" unload="true"/>
 	</add>
@@ -596,9 +596,9 @@
 		<unit path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_sethbling/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_sethbling/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling" unload="true"/>
 	</add>
@@ -607,9 +607,9 @@
 		<unit path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_shubbleyt/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_shubbleyt/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt" unload="true"/>
 	</add>
@@ -618,24 +618,30 @@
 		<unit path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_technoblade/body_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_technoblade/body_nm" unload="true"/>
-		<cooked_physics path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 		<material_config path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" type="unit">
-		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_drill_small/drill_small_df" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_drill_small/drill_small_nm" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+	</add>
+	<add path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" type="unit">
+		<unit path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
+		<object path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
+		<material_config path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
+		<sequence_manager path="units/payday2/props/str_prop_com_alarm_keycard_keypad/str_prop_com_alarm_keycard_keypad" unload="true"/>
 	</add>
 </table>
