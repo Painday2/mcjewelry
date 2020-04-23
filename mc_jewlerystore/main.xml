@@ -86,10 +86,38 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
-	<Localization default="english.txt" directory="loc"/>
+	<level ai_group_type="america" id="cobblestone_instance" max_bags="54">
+		<add directory="assets"/>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+		</hooks>
+		<include directory="levels/cobblestone_instance">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
 	<instance id="crafting_station">
-		<add file="levels/mc_methlab/add.xml"/>
+		<add file="levels/crafting_station/add.xml"/>
 		<include directory="levels/crafting_station">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
@@ -106,10 +134,31 @@
 		</include>
 		<packages/>
 	</instance>
+	<instance id="cobblestone_instance">
+		<add file="levels/cobblestone_instance/add.xml"/>
+		<include directory="levels/cobblestone_instance">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Localization default="english.txt" directory="loc"/>
 	<narrative contact="custom" id="mc_jewlerystore">
 		<chain>
 			<table level_id="mc_jewlerystorelvl" type="d" type_id="heist_type_assault"/>
 			<table level_id="crafting_station" type="d" type_id="heist_type_assault"/>
+			<table level_id="cobblestone_instance" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>
