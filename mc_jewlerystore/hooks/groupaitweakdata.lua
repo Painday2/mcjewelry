@@ -240,7 +240,7 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "unit_cat_minecraft_co
 			america = {Idstring("units/payday2/characters/ene_fbi_3/ene_fbi_3")},
 			russia = {Idstring("units/pd2_dlc_mad/characters/ene_akan_cs_cop_asval_smg/ene_akan_cs_cop_asval_smg")},
             zombie = {Idstring("units/pd2_dlc_hvh/characters/ene_fbi_hvh_3/ene_fbi_hvh_3")},
-            minecraft = {Idstring("units/pd2_mod_craft/characters/ene_fbi_3/ene_fbi_3")}
+            minecraft = {Idstring("units/payday2/characters/ene_fbi_3/ene_fbi_3")}
 		},
 		access = access_type_all
 	}
@@ -520,7 +520,7 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "unit_cat_minecraft_co
 					Idstring("units/pd2_dlc_drm/characters/ene_bulldozer_minigun/ene_bulldozer_minigun")
                 },
                 minecraft = {
-                    Idstring("units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer_1/ene_mc_zeal_bulldozer_1"),
+                    Idstring("units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer/ene_mc_zeal_bulldozer"),
 					Idstring("units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer_2/ene_mc_zeal_bulldozer_2"),
 					Idstring("units/pd2_mod_craft/characters/ene_mc_zeal_bulldozer_3/ene_mc_zeal_bulldozer_3")
                 }
