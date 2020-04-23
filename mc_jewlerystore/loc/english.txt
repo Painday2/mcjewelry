@@ -7,6 +7,9 @@
 	"hud_carry_emerald_block" : "Emerald",
 	"hud_carry_diamond_block" : "Diamond",
 	"hud_carry_gold_block" : "Gold",
+	"iron_pku" : "Press $BTN_INTERACT to grab the iron",
+	
+	"hud_action_place_block" : "Placing block...",
 	
 	"hud_int_equipment_stick" : "Stick",
 	"hud_int_equipment_cobblestone" : "Cobblestone",
