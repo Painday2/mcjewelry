@@ -255,6 +255,18 @@
 		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_diamond_block_df"/>
+<<<<<<< HEAD
+=======
+		<material_config path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_gold_block_acc" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_gold_block_acc"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_gold_block_acc"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_gold_block_acc"/>
+>>>>>>> fee67258b6883b600e8cd0fdc2fe818b6b35c50c
 		<model path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
 		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
