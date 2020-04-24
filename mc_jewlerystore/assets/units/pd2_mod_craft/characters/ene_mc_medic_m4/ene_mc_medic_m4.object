@@ -78,6 +78,10 @@
 			<object name="LeftLeg" />
 			<object collision_type="capsule" mass="6" padding="-5" name="c_capsule_LeftLeg" />
 		</body>
+		<body name="mover_blocker" enabled="true" template="mover_blocker" keyframed="true" collision_class="ragdoll">
+            <object name="root_point"/>
+            <object name="c_capsule_mover_blocker" collision_type="capsule"/>
+        </body>
 	</bodies>
 
 	<constraints>
