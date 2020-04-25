@@ -39,8 +39,15 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		equipment_consume = true
 	}
 	
+	self.hold_pickup_sand = {
+		text_id = "hud_int_hold_pickup_sand",
+		action_text_id = "hud_action_sand",
+		timer = 0.25,
+		start_active = false
+	}
+	
 	self.iron_pku = {
-		text_id = "hud_int_hold_sand",
+		text_id = "iron_pku",
 	}
 	
 	self.hold_place_gunpowder = {
@@ -54,6 +61,13 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_interupt = "bar_insert_printingplates_cancel",
 		sound_done = "bar_insert_printingplates_finished",
 		equipment_consume = true
+	}
+
+	self.hold_pickup_gunpowder = {
+		text_id = "hud_int_hold_pickup_gunpowder",
+		action_text_id = "hud_action_gunpower",
+		timer = 0.25,
+		start_active = false
 	}
 	
 	self.hold_place_ladder = {
