@@ -9,6 +9,8 @@
     </extension>
     <extension name="interaction" class="SmallLootInteractionExt">
       <var name="tweak_data" value="iron_pku" />
+      <var name="_ray_object_names" type="table" >
+      </var>
     </extension>
   </extensions>
 </unit>
