@@ -40,7 +40,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 	}
 	
 	self.iron_pku = {
-		text_id = "hud_int_hold_sand",
+		text_id = "iron_pku",
 	}
 	
 	self.hold_place_gunpowder = {
