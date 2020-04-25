@@ -2,7 +2,7 @@
 	<diesel materials="units/pd2_mod_craft/props/prop_cube_glass" orientation_object="rp_root" />
 	
 	<bodies>
-		<body name="static_body" enabled="true" template="static">
+		<body name="static_body" enabled="true" template="window">
 			<object name="g_g" collision_type="box" padding="-2.5"/>
 		</body>
 	</bodies>
