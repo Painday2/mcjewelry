@@ -4,7 +4,9 @@
 	<extensions>
 		<extension class="ScriptUnitData" name="unit_data" />
 		<extension name="damage" class="UnitDamage" />
-		<extension name="interaction" class="UseInteractionExt" >
+		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
+			<var name="_special_equipment" value="sand" />
+			<var name="_remove_on_interact" value="true" />
             <var name="tweak_data" value="hold_pickup_sand" />
             <var name="_interact_object" value="interaction"/>
         </extension>

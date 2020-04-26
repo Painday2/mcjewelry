@@ -4,7 +4,9 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
-        <extension name="interaction" class="UseInteractionExt">
+        <extension name="interaction" class="SpecialEquipmentInteractionExt">
+			<var name="_special_equipment" value="gunpowder" />
+			<var name="_remove_on_interact" value="true" />
 			<var name="tweak_data" value="hold_pickup_gunpowder" />
 			<var name="_interact_object" value="interaction"/>
 		</extension>
