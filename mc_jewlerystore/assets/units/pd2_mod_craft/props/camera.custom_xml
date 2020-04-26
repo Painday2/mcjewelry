@@ -1,0 +1,21 @@
+<table>
+    <unit>    
+        <sequence name=" 'stop' " triggable="true">
+            <material_config    name=" 'units/pd2_mod_craft/props/normal_cam_destroyed' "/> 
+            <attention giveaway="'broken_cam'" operation="'add'" preset_name="'broken_cam_ene_ntl'"/>
+        </sequence>
+        <sequence editable_state="true" name=" 'deathwish' " triggable="true">
+            <material_config    name=" 'units/pd2_mod_craft/props/titan_cam' "/> 
+        </sequence>
+        <sequence editable_state="true" name=" 'normal' " triggable="true">
+            <material_config    name=" 'units/pd2_mod_craft/props/normal_cam' "/> 
+        </sequence>
+        <body name=" 'head' ">
+            <endurance bullet="1" explosion="1" melee="0.5">
+                <run_sequence name=" 'stop' "/>
+            </endurance>
+        </body>
+    </unit>
+</table>
+
+

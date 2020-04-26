@@ -311,6 +311,16 @@
 		<unit path="units/pd2_mod_craft/props/diamond_head"/>
 		<model path="units/pd2_mod_craft/props/diamond_head"/>
 		<sequence_manager path="units/pd2_mod_craft/props/diamond_head"/>
+		<texture path="units/pd2_mod_craft/props/textures/normal_cam"/>
+		<texture path="units/pd2_mod_craft/props/textures/titan_cam"/>
+		<texture path="units/pd2_mod_craft/props/textures/normal_cam_destroyed"/>
+		<material_config path="units/pd2_mod_craft/props/normal_cam" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/titan_cam" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/normal_cam_destroyed" unload="true"/>
+		<object path="units/pd2_mod_craft/props/camera"/>
+		<unit path="units/pd2_mod_craft/props/camera"/>
+		<model path="units/pd2_mod_craft/props/camera"/>
+		<sequence_manager path="units/pd2_mod_craft/props/camera"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
