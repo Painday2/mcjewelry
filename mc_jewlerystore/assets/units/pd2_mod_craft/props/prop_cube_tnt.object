@@ -1,5 +1,6 @@
 <dynamic_object>
 	<diesel materials="units/pd2_mod_craft/props/prop_cube_tnt" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/prop_cube_tnt" />
 	
 	<bodies>
 		<body name="static_body" enabled="true" template="static">

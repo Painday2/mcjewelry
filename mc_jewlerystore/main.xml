@@ -18,6 +18,7 @@
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
 		<include directory="levels/mc_jewlerystorelvl">
 			<file file="world.world" type="binary"/>
@@ -110,8 +111,8 @@
 		<sound id="mc_tnt_explode1" path="tnt/explode1.ogg"/>
 		<sound id="mc_tnt_explode2" path="tnt/explode2.ogg"/>
 		<sound id="mc_tnt_explode3" path="tnt/explode3.ogg"/>
-		<sound id="mc_tnt_explode1" path="tnt/explode1.ogg"/>
-		<sound id="mc_tnt_fuse1" path="tnt/fuse.ogg"/>
+		<sound id="mc_tnt_explode4" path="tnt/explode4.ogg"/>
+		<sound id="mc_tnt_fuse" path="tnt/fuse.ogg"/>
 		<sound id="mc_trapdoor_open1" path="trapdoor/open1.ogg"/>
 		<sound id="mc_trapdoor_open2" path="trapdoor/open2.ogg"/>
 		<sound id="mc_trapdoor_open3" path="trapdoor/open3.ogg"/>

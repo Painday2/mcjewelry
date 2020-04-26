@@ -43,7 +43,7 @@
 	"hud_equipment_need_tnt" : "You need to craft TNT",
 	"hud_carry_diarmour" : "Diamond Armor",
 	"hud_int_hold_bag_dia_armor" : "Hold $BTN_INTERACT to bag Diamond Armor",
-	"hud_action_bagging_dia_armor" : "Bagging Diamond Armor",
+	"hud_action_bagging_dia_armor" : "Bagging Diamond Armor...",
 	
 	"mcj_obj1" : "Get to the back of the store ",
 	"mcj_obj2" : "Disable External alarm",

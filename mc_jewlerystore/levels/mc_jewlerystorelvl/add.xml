@@ -201,7 +201,10 @@
 		<material_config path="units/pd2_mod_craft/props/prop_cube_tnt"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_tnt"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_tnt"/>
+		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_tnt"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_tnt_flash"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_tnt_df"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_tnt_flash_df"/>
 		<material_config path="units/pd2_mod_craft/material_secondary" unload="true"/>
 		<model path="units/pd2_mod_craft/props/goldingot" unload="true"/>
 		<object path="units/pd2_mod_craft/props/goldingot" unload="true"/>

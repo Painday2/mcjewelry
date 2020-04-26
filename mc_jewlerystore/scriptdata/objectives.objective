@@ -3,9 +3,6 @@
 	<objective description="mcj_obj2_desc" id="mcj_obj2" text="mcj_obj2"/>
 	<objective description="mcj_obj3_desc" id="mcj_obj3" text="mcj_obj3"/>
 	<objective amount="8" description="mcj_obj4_1_desc" id="mcj_obj4_1" text="mcj_obj4_1"/>
-	<objective amount="10" description="mcj_obj4_2_desc" id="mcj_obj4_2" text="mcj_obj4_2"/>
-	<objective amount="12" description="mcj_obj4_3_desc" id="mcj_obj4_3" text="mcj_obj4_3"/>
-	<objective description="mcj_obj4_4_desc" id="mcj_obj4_4" text="mcj_obj4_4"/>
 	<objective description="mcj_obj5_desc" id="mcj_obj5" text="mcj_obj5"/>
 	<objective description="mcj_obj4_desc" id="mcj_obj4" text="mcj_obj4"/>
 </table>

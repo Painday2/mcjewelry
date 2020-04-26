@@ -1,0 +1,29 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'start_fuse'" triggable="true">
+			<body enabled="true" name="'block'"/>
+			<object enabled="true" name="'g_g'"/>
+			<sound action="'play'" event="'mc_tnt_fuse'" object="'g_g'"/>
+			<run_sequence name="'flash_mat'" start_time="9/30"/>
+			<run_sequence name="'normal_mat'" start_time="18/30"/>
+			<run_sequence name="'flash_mat'" start_time="27/30"/>
+			<run_sequence name="'normal_mat'" start_time="36/30"/>
+			<run_sequence name="'flash_mat'" start_time="45/30"/>
+			<run_sequence name="'flash_mat'" start_time="54/30"/>
+			<run_sequence name="'normal_mat'" start_time="63/30"/>
+			<run_sequence name="'flash_mat'" start_time="71/30"/>
+			<run_sequence name="'explode'" start_time="90/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'explode'" triggable="true">
+			<body enabled="false" name="'block'"/>
+			<object enabled="false" name="'g_g'"/>
+			<sound action="'play'" event="'mc_tnt_explode'..pick('1','2','3','4')" object="'g_g'"/>
+		</sequence>
+		<sequence editable_state="true" name="'normal_mat'" triggable="false">
+			<material_config    name=" 'units/pd2_mod_craft/props/prop_cube_tnt' "/>
+		</sequence>
+		<sequence editable_state="true" name="'flash_mat'" triggable="false">
+			<material_config    name=" 'units/pd2_mod_craft/props/prop_cube_tnt_flash' "/>
+		</sequence>
+	</unit>
+</table>
