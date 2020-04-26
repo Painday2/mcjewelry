@@ -37,6 +37,7 @@
             <object    enabled="false"    name="'trapdoor_closed'"/>
             <run_sequence name="'update_interact_data'"/>
             <run_sequence name="'tamamohno'"/>
+			<sound event="'mc_trapdoor_open'..pick('1','2','3','4','5')" object="'trapdoor_open'"/>
         </sequence>
         <sequence editable_state="true" name="'trapdoor_closed'" triggable="true">
             <body enabled="false" name="'trapdoor_opened'"/>
@@ -44,6 +45,7 @@
             <object    enabled="true"    name="'trapdoor_closed'"/>
             <object    enabled="false"    name="'trapdoor_open'"/>
             <run_sequence name="'update_interact_data'"/>
+			<sound event="'mc_trapdoor_close'..pick('1','2','3')" object="'trapdoor_closed'"/>
         </sequence>
         <sequence editable_state="true" name="'enable_interact'" triggable="true">
             <interaction enabled="true"/>

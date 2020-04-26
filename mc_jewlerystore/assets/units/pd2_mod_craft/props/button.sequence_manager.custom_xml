@@ -14,6 +14,7 @@
             <body enabled="true" name="'button_open'"/>
             <object    enabled="true"    name="'button_pressed'"/>
             <object    enabled="false"    name="'button'"/>
+			<sound action="'play'" event="'mc_button_hit'" object="'button_pressed'"/>
         </sequence>
         <sequence editable_state="true" name="'button_unpressed'" triggable="true">
             <body enabled="false" name="'button_pressed'"/>
@@ -22,7 +23,7 @@
             <object    enabled="false"    name="'button_pressed'"/>
         </sequence>
         <sequence name="'enable_interact'" triggable="true">
-            <interaction enabled="false"/>
+            <interaction enabled="true"/>
         </sequence>
         <sequence name="'disable_interact'" triggable="true">
             <interaction enabled="false"/>

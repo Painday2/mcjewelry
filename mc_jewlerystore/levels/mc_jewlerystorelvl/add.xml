@@ -169,6 +169,10 @@
 		<model path="units/pd2_mod_craft/props/sand_int"/>
 		<object path="units/pd2_mod_craft/props/sand_int"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/sand_int"/>
+		<object path="units/pd2_mod_craft/props/sand_pickup"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/sand_pickup"/>
+		<unit path="units/pd2_mod_craft/props/sand_pickup"/>
+		<model path="units/pd2_mod_craft/props/sand_pickup"/>
 		<texture path="units/pd2_mod_craft/props/textures/sand"/>
 		<unit path="units/pd2_mod_craft/props/chest"/>
 		<material_config path="units/pd2_mod_craft/props/chest"/>
@@ -214,6 +218,10 @@
 		<texture path="units/pd2_mod_craft/props/textures/gunpowder" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/mc_pku_gunpowder" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/mc_pku_gunpowder"/>
+		<unit path="units/pd2_mod_craft/props/pickup_gunpowder" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/pickup_gunpowder"/>
+		<model path="units/pd2_mod_craft/props/pickup_gunpowder" unload="true"/>
+		<object path="units/pd2_mod_craft/props/pickup_gunpowder" unload="true"/>
 		<model path="units/pd2_mod_craft/props/emerald" unload="true"/>
 		<object path="units/pd2_mod_craft/props/emerald" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/emerald" unload="true"/>

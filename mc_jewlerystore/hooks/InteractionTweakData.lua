@@ -9,7 +9,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		equipment_text_id = "hud_equipment_need_cobblestone",
 		sound_start = "bar_insert_printingplates",
 		sound_interupt = "bar_insert_printingplates_cancel",
-		sound_done = "bar_insert_printingplates_finished",
+		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
 	
@@ -22,7 +22,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		equipment_text_id = "hud_equipment_need_stick",
 		sound_start = "bar_insert_printingplates",
 		sound_interupt = "bar_insert_printingplates_cancel",
-		sound_done = "bar_insert_printingplates_finished",
+		sound_done = "mc_place_block",
 		equipment_consume = true
 	}	
 	
@@ -35,19 +35,21 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		equipment_text_id = "hud_equipment_need_sand",
 		sound_start = "bar_insert_printingplates",
 		sound_interupt = "bar_insert_printingplates_cancel",
-		sound_done = "bar_insert_printingplates_finished",
+		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
 	
 	self.hold_pickup_sand = {
 		text_id = "hud_int_hold_pickup_sand",
 		action_text_id = "hud_action_sand",
+		sound_done = "mc_pickup",
 		timer = 0.25,
 		start_active = false
 	}
 	
 	self.iron_pku = {
 		text_id = "iron_pku",
+		sound_done = "mc_pickup"
 	}
 	
 	self.hold_place_gunpowder = {
@@ -58,14 +60,15 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		special_equipment = "gunpowder",
 		equipment_text_id = "hud_equipment_need_gunpowder",
 		sound_start = "bar_insert_printingplates",
-		sound_interupt = "bar_insert_printingplates_cancel",
-		sound_done = "bar_insert_printingplates_finished",
+		sound_interupt = "mc_place_block",
+		sound_done = "mc_pickup",
 		equipment_consume = true
 	}
 
 	self.hold_pickup_gunpowder = {
 		text_id = "hud_int_hold_pickup_gunpowder",
 		action_text_id = "hud_action_gunpower",
+		sound_done = "mc_pickup",
 		timer = 0.25,
 		start_active = false
 	}
@@ -79,7 +82,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		equipment_text_id = "hud_equipment_need_ladder",
 		sound_start = "bar_insert_printingplates",
 		sound_interupt = "bar_insert_printingplates_cancel",
-		sound_done = "bar_insert_printingplates_finished",
+		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
 	
@@ -92,7 +95,20 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		equipment_text_id = "hud_equipment_need_lever",
 		sound_start = "bar_insert_printingplates",
 		sound_interupt = "bar_insert_printingplates_cancel",
-		sound_done = "bar_insert_printingplates_finished",
+		sound_done = "mc_place_block",
+		equipment_consume = true
+	}
+	
+	self.hold_place_tnt = {
+		text_id = "hud_int_hold_tnt",
+		action_text_id = "hud_action_place_block",
+		timer = 2,
+		start_active = false,
+		special_equipment = "tnt",
+		equipment_text_id = "hud_equipment_need_tnt",
+		sound_start = "bar_insert_printingplates",
+		sound_interupt = "bar_insert_printingplates_cancel",
+		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
 	
@@ -106,7 +122,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		timer = 3,
 		sound_start = "bar_drill_apply",
 		sound_interupt = "bar_drill_apply_cancel",
-		sound_done = "bar_drill_apply_finished",
+		sound_done = "mc_place_block",
 		axis = "y",
 		action_text_id = "hud_action_placing_drill"
 	}
@@ -116,6 +132,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		text_id = "hud_int_cmdblk_keycard",
 		equipment_text_id = "hud_int_cmdblk_no_keycard",
 		special_equipment = "tripwire_key",
+		sound_done = "mc_button_hit",
 		equipment_consume = true,
 		start_active = false,
 		axis = "z"
@@ -127,7 +144,36 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 			upgrade = "mask_off_pickup",
 			category = "player"
 		},
-		sound_done = "pick_up_key_card",
-		blocked_hint = "full_keycard"
+		sound_event = "mc_pickup"
+	}
+	
+	self.pku_gold = {
+		text_id = "hold_take_gold",
+		action_text_id = "taking_loot",
+		timer = 3,
+		sound_start = "bar_bag_jewelry",
+		sound_interupt = "bar_bag_jewelry_cancel",
+		sound_done = "mc_pickup",
+		blocked_hint = "carry_block"
+	}
+	
+	self.pku_emerald = {
+		text_id = "hold_take_emerald",
+		action_text_id = "taking_loot",
+		timer = 3,
+		sound_start = "bar_bag_jewelry",
+		sound_interupt = "bar_bag_jewelry_cancel",
+		sound_done = "mc_pickup",
+		blocked_hint = "carry_block"
+	}
+	
+	self.pku_diamond = {
+		text_id = "hold_take_diamond",
+		action_text_id = "taking_loot",
+		timer = 3,
+		sound_start = "bar_bag_jewelry",
+		sound_interupt = "bar_bag_jewelry_cancel",
+		sound_done = "mc_pickup",
+		blocked_hint = "carry_block"
 	}
 end)

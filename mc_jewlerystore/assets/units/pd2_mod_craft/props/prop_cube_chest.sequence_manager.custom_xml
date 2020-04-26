@@ -7,6 +7,7 @@
             <body enabled="true" name="'chest_frame'"/>
             <object    enabled="true"    name="'g_g'"/>
             <object    enabled="false"    name="'g_chest_top'"/>
+			<sound action="'play'" event="'mc_chest_open'" object="'g_g'"/>
         </sequence>
         <sequence editable_state="true" name="'closed'" triggable="true">
             <interaction enabled="true"/>

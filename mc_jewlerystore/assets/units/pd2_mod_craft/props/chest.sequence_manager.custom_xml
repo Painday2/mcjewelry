@@ -30,6 +30,7 @@
             <body enabled="true" name="'chest_open'"/>
             <object    enabled="true"    name="'chest_open'"/>
             <object    enabled="false"    name="'chest_top'"/>
+			<sound action="'play'" event="'mc_open_chest'" object="'chest_open'"/>
         </sequence>
         <sequence editable_state="true" name="'chest_closed'" triggable="true">
             <body enabled="false" name="'chest_open'"/>

@@ -13,14 +13,14 @@
 		</sequence>
 		<sequence editable_state="true" name="'interaction_enable'" triggable="true">
 			<interaction enabled="true"/>
-			<run_sequence name="'state_hide'"/>
+			<run_sequence name="'state_show'"/>
 		</sequence>
 		<sequence editable_state="true" name="'hide_and_disable'" triggable="true">
 			<interaction enabled="false"/>
 			<run_sequence name="'state_hide'"/>
 		</sequence>
 		<sequence editable_state="false" name="'interact'" triggable="false">
-			<run_sequence name="'state_show'"/>
+			<run_sequence name="'state_hide'"/>
 			<run_sequence name="'interaction_disable'"/>
 		</sequence>
 	</unit>

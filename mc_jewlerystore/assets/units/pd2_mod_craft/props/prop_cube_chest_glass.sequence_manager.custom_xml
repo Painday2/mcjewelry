@@ -33,8 +33,7 @@
         </sequence>
         <sequence editable_state="true" name="'opened'" triggable="true">
             <interaction enabled="false"/>
-            <effect name="'effects/payday2/particles/window/jewelry_counter_1'" parent="object( 'e_glass_01' )" position="v()"/>
-            <sound action="'play'" event="'window_small_shatter'" object="'e_glass_01'"/>
+            <sound action="'play'" event="'mc_glass_break'..pick('1','2','3')" object="'g_chest_top'"/>
             <body enabled="true" name="'chest_bottom'"/>
             <body enabled="false" name="'chest_top'"/>
             <object    enabled="true"    name="'g_g'"/>

@@ -5,7 +5,7 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="CarryInteractionExt">
-		  <var name="tweak_data" value="gen_pku_jewelry" />
+		  <var name="tweak_data" value="pku_gold" />
 		  <var name="_interact_object" value="interact"/>
 			<var name="_ray_object_names" type="table" >
 				<!-- <var value="a_ray_object_1"/> -->
