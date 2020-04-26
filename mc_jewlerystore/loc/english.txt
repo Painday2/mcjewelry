@@ -13,6 +13,9 @@
 	"hold_take_emerald" : "Hold $BTN_INTERACT to bag the emerald",
 	
 	"hud_action_place_block" : "Placing block...",
+	"hud_action_gunpowder" : "Taking Gunpowder...",
+	"hud_action_sand" : "Taking Sand...",
+	"taking_loot" : "Taking Loot...",
 	
 	"hud_int_equipment_stick" : "Stick",
 	"hud_int_equipment_cobblestone" : "Cobblestone",
@@ -21,6 +24,8 @@
 	"hud_int_equipment_mc_drill" : "Drill",
 	"hud_int_equipment_tnt" : "TNT",
 	"hud_int_equipment_tripwire_key" : "Tripwire Key",
+	"hud_int_equipment_sand" : "Sand",
+	"hud_int_equipment_gunpowder" : "Gunpowder",
 	
 	"hud_int_pickup_tripwire_key" : "Press $BTN_INTERACT to pickup the Tripwire key",
 	"hud_int_cmdblk_keycard" : "Press $BTN_INTERACT to disable displaycase alarm",
@@ -36,8 +41,10 @@
 	"hud_int_hold_ladder" : "Hold $BTN_INTERACT to add Ladder",
 	"hud_equipment_need_ladder" : "You need to craft a Ladder",
 	"hud_int_hold_gunpowder" : "Hold $BTN_INTERACT to add Gunpowder",
+	"hud_int_hold_pickup_gunpowder" : "Hold $BTN_INTERACT to pickup Gunpowder",
 	"hud_equipment_need_gunpowder" : "Need Gunpowder",
 	"hud_int_hold_sand" : "Hold $BTN_INTERACT to add Sand",
+	"hud_int_hold_pickup_sand" : "Hold $BTN_INTERACT to pickup Sand",
 	"hud_equipment_need_sand" : "Need Sand",
 	"hud_int_hold_tnt" : "Hold $BTN_INTERACT to add TNT",
 	"hud_equipment_need_tnt" : "You need to craft TNT",

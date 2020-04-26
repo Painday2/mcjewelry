@@ -7,6 +7,8 @@
 	    <extension name="interaction" class="UseInteractionExt">
 			<var name="tweak_data" value="cmdblk_keycard" />
 			<var name="_interact_object" value="interact"/>
+			<var name="_ray_object_names" type="table" >
+      		</var>
 		</extension>
 	</extensions>
 </unit>

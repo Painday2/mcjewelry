@@ -144,7 +144,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 			upgrade = "mask_off_pickup",
 			category = "player"
 		},
-		sound_event = "mc_pickup"
+		sound_done = "mc_pickup"
 	}
 	
 	self.pku_gold = {
