@@ -1,8 +1,15 @@
 {
-	"heist_mc_jewlerystore_name":		" ",
+	"heist_mc_jewlerystore_name":		"Jewelry Crafters",
 	"heist_mc_jewlerystore_brief":		" ",
-	"heist_mc_jewlerystorelvl_name":		" ",
+	"heist_mc_jewlerystorelvl_name":		"Jewelry Crafters",
 	"heist_mc_jewlerystorelvl_brief":		" ",
+	
+	"ass_storage_glass" : "Storage Room Access",
+	"ass_storage_glass_desc" : "An insider has left a window open for you to get easy access into the second floor.",
+	"ass_resource_cache" : "Resource Cache",
+	"ass_resource_cache_desc" : "Select the starter chest to get some resources at the start of the heist.",
+	"ass_crafting_table" : "Extra Crafting Table",
+	"ass_crafting_table_desc" : "Have an insider leave another crafting table behind the Jewelry store for easier access.",
 	
 	"hud_carry_emerald_block" : "Emerald",
 	"hud_carry_diamond_block" : "Diamond",

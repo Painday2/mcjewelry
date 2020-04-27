@@ -60,6 +60,26 @@ Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
 		}
 	}
 	
+	self.equipment_gunpowder = {
+		texture = "guis/gunpowder_equipment",
+		texture_rect = {
+			0,
+			0,
+			300,
+			300
+		}
+	}
+	
+	self.equipment_sand = {
+		texture = "guis/sand_equipment",
+		texture_rect = {
+			0,
+			0,
+			160,
+			160
+		}
+	}
+	
 	self.equipment_tripwire = {
 		texture = "guis/tripwire_equipment",
 		texture_rect = {

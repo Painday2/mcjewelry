@@ -50,12 +50,14 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 	}
 	self.specials.sand = {
 		sync_possession = true,
+		quantity = 10,
 		transfer_quantity = 4,
 		text_id = "hud_int_equipment_sand",
 		icon = "equipment_sand"
 	}
 	self.specials.gunpowder = {
 		sync_possession = true,
+		quantity = 10,
 		transfer_quantity = 4,
 		text_id = "hud_int_equipment_gunpowder",
 		icon = "equipment_gunpowder"

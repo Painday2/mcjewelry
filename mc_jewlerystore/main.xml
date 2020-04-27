@@ -1,11 +1,14 @@
 <table name="mc_jewlerystore">
-	<level ai_group_type="minecraft" id="mc_jewlerystorelvl" max_bags="54">
+	<level ai_group_type="minecraft" ghost_bonus="0.1" id="mc_jewlerystorelvl" max_bags="54">
 		<add file="levels/mc_jewlerystorelvl/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
+			<asset name="mcj_crafting_table"/>
+			<asset name="mcj_resource_cache"/>
+			<asset name="mcj_storage_glass"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -49,6 +52,7 @@
 			<value_node value="levels/narratives/vlad/jewelry_store/world/world"/>
 			<value_node value="levels/narratives/butcher/friend/editor_only/editor_only"/>
 			<value_node value="levels/instances/unique/cag_computer/world/world"/>
+			<value_node value="levels/instances/unique/vit/vit_security_room/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -143,7 +147,6 @@
 	<narrative contact="custom" id="mc_jewlerystore">
 		<chain>
 			<table level_id="mc_jewlerystorelvl" type="d" type_id="heist_type_assault"/>
-			<table level_id="crafting_station" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>

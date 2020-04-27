@@ -349,6 +349,11 @@
 	<texture path="guis/mc_drill_equipment" unload="true"/>
 	<texture path="guis/tnt_equipment" unload="true"/>
 	<texture path="guis/tripwire_equipment" unload="true"/>
+	<texture path="guis/sand_equipment" unload="true"/>
+	<texture path="guis/gunpowder_equipment" unload="true"/>
+	<texture path="guis/ass_storage_room" unload="true"/>
+	<texture path="guis/ass_resource_cache" unload="true"/>
+	<texture path="guis/ass_crafting_table" unload="true"/>
 	<add>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36_husk" unload="true"/>

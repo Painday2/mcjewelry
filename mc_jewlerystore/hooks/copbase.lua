@@ -40,7 +40,7 @@ local material_config_paths = {
 	"units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine",
 	"units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus",
 	"units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie",
-	"units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling",
+	"units/pd2_mod_craft/characters/civ_shubbleyt/civ_shubbleyt",
 	"units/pd2_mod_craft/characters/civ_sethbling/civ_sethbling",
 	"units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade"
 }
