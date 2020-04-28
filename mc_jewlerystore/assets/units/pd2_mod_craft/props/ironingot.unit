@@ -5,7 +5,7 @@
     <extension name="unit_data" class="ScriptUnitData" />
     <extension name="damage" class="UnitDamage" />
     <extension name="base" class="SmallLootBase">
-    	<var name="small_loot" value="vault_loot_gold" />
+    	<var name="small_loot" value="spawn_bucket_of_money" />
     </extension>
     <extension name="interaction" class="SmallLootInteractionExt">
       <var name="tweak_data" value="iron_pku" />

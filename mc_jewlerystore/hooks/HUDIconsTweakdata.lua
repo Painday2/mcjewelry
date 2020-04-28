@@ -65,8 +65,8 @@ Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
 		texture_rect = {
 			0,
 			0,
-			300,
-			300
+			160,
+			160
 		}
 	}
 	
@@ -75,8 +75,8 @@ Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
 		texture_rect = {
 			0,
 			0,
-			160,
-			160
+			300,
+			300
 		}
 	}
 	
