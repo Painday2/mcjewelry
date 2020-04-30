@@ -1,0 +1,20 @@
+obj1 alright, get in there and get some diamonds
+Obj1hint We probably need some ladders to get to the back. Go punch some trees or something dammit
+obj2loud ah fuck, the cops have been called and (insert driver name here) has fucked off for a while, hold out till then!
+obj2stealth ah fuck, they have a alarm system on the glass, go make a lever. 
+obj2stealthhint it's minecraft you dumbass, go mine some cobble and CRAFT 
+obj3stealth alright niiic- oh for fuck sakes, MORE ALARMS? don't break anything else until we disable it. (on breaking glass to enter?)
+obj3stealthhint find a key and use it, or something, i don't know.
+obj3loud driver's pulled up, get the loot in there. 
+obj4stealth now get your loot to the van, lets get this bread... diamonds. whatever.
+escape that's all we need, but if you want more go for it.
+s1 hey there's a chest up here! who left this?
+s2 OH GOD OH FUCK IT'S TRAPPED! RUUUN! 
+s3 are you alright? yeah? good. that was sure to have alerted the cops! (probably cause issues with the loudobj)
+S3hint (continuation after s3????) ah damn it... we could have used that! Maybe we can find some remnants of it laying around.
+s4 some TNT huh...? i'm sure there's somewhere we can use that. (should this be a more direct hint to the server room?)
+s4hint Maybe see if a computer knows if anywhere we can use this rejected excuse of a explosive
+s5 give me a second, gotta install wurst on this...
+s5done alright, xray says there's something behind the brick wall in that room 
+s6 woah... a vault? how the hell did they keep this secret...
+s7 Armor... this is gotta be worth a fortune!

@@ -61,7 +61,7 @@
 	
 	"mcj_obj1" : "Get to the back of the store ",
 	"mcj_obj2" : "Disable External alarm",
-	"mcj_obj3" : "Disable displaycase alarms",
+	"mcj_obj3" : "Disable display case alarms",
 	"mcj_obj4" : "Wait for twitch to return",
 	"mcj_obj4_1" : "Secure Diamond blocks",
 	"mcj_obj4_2" : "Secure Diamond blocks",
@@ -76,5 +76,27 @@
 	"mcj_obj4_2_desc" : "",
 	"mcj_obj4_3_desc" : "",
 	"mcj_obj4_4_desc" : "",
-	"mcj_obj5_desc" : ""
+	"mcj_obj5_desc" : "",
+	
+	"mc_vo_obj1_sub" : "Alright, get in there and get some diamonds.",
+	"mc_vo_obj1hint_sub" : "We probably need some ladders to get to the back. Go punch some trees or something dammit.",
+	"mc_vo_obj2loud_sub" : "Ah fuck, the cops have been called and the driver has fucked off for a while, hold out till then!",
+	"mc_vo_obj2stealth_sub" : "Ah fuck, they have a alarm system on the glass, go make a lever.",
+	"mc_vo_obj2stealthhint_sub" : "It's minecraft you dumbass, go mine some cobble and CRAFT.",
+	"mc_vo_obj3stealth_sub" : "Alright niiic- oh for fuck sakes, MORE ALARMS? don't break anything else until we disable it.",
+	"mc_vo_obj3stealthhint_sub" : "Find a key and use it, or something, i don't know.",
+	"mc_vo_obj3loud_sub" : "Driver's pulled up, get the loot in there. ",
+	"mc_vo_obj4stealth_sub" : "Now get your loot to the van, lets get this bread... diamonds. whatever.",
+	"mc_vo_escape_sub" : "That's all we need, but if you want more go for it.",
+	"mc_vo_s1_sub" : "Hey there's a chest up here! who left this?",
+	"mc_vo_s2_sub" : "OH GOD OH FUCK IT'S TRAPPED! RUUUN!",
+	"mc_vo_s3_sub" : "Are you alright? yeah? good. that was sure to have alerted the cops!",
+	"mc_vo_s3hint_sub" : "Ah damn it... we could have used that! Maybe we can find some remnants of it laying around.",
+	"mc_vo_s4_sub" : "Some TNT huh...? i'm sure there's somewhere we can use that.",
+	"mc_vo_s4hint_sub" : "Maybe see if a computer knows if anywhere we can use this rejected excuse of a explosive",
+	"mc_vo_s5_sub" : "Give me a second, gotta install wurst on this...",
+	"mc_vo_s5done_sub" : "Alright, xray says there's something behind the brick wall in that room.",
+	"mc_vo_s6_sub" : "Woah... a vault? how the hell did they keep this secret...",
+	"mc_vo_s7_sub" : "Armor... this is gotta be worth a fortune!"
+	
 }

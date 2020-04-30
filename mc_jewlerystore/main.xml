@@ -125,6 +125,26 @@
 		<sound id="mc_trapdoor_close1" path="trapdoor/close1.ogg"/>
 		<sound id="mc_trapdoor_close2" path="trapdoor/close2.ogg"/>
 		<sound id="mc_trapdoor_close3" path="trapdoor/close3.ogg"/>
+		<sound id="mc_vo_escape" path="tts/escape.ogg" subtitle_id="mc_vo_escape_sub"/>
+		<sound id="mc_vo_obj1" path="tts/obj1.ogg" subtitle_id="mc_vo_obj1_sub"/>
+		<sound id="mc_vo_obj1hint" path="tts/obj1hint.ogg" subtitle_id="mc_vo_obj1hint_sub"/>
+		<sound id="mc_vo_obj2loud" path="tts/obj2loud.ogg" subtitle_id="mc_vo_obj2loud_sub"/>
+		<sound id="mc_vo_obj2stealth" path="tts/obj2stealth.ogg" subtitle_id="mc_vo_obj2stealth_sub"/>
+		<sound id="mc_vo_obj2stealthhint" path="tts/obj2stealthhint.ogg" subtitle_id="mc_vo_obj2stealthhint_sub"/>
+		<sound id="mc_vo_obj3loud" path="tts/obj3loud.ogg" subtitle_id="mc_vo_obj3loud_sub"/>
+		<sound id="mc_vo_obj3stealth" path="tts/obj3stealth.ogg" subtitle_id="mc_vo_obj3stealth_sub"/>
+		<sound id="mc_vo_obj3stealthhint" path="tts/obj3stealthhint.ogg" subtitle_id="mc_vo_obj3stealthhint_sub"/>
+		<sound id="mc_vo_obj4stealth" path="tts/obj4stealth.ogg" subtitle_id="mc_vo_obj4stealth_sub"/>
+		<sound id="mc_vo_s1" path="tts/s1.ogg" subtitle_id="mc_vo_s1_sub"/>
+		<sound id="mc_vo_s2" path="tts/s2.ogg" subtitle_id="mc_vo_s2_sub"/>
+		<sound id="mc_vo_s3" path="tts/s3.ogg" subtitle_id="mc_vo_s3_sub"/>
+		<sound id="mc_vo_s3hint" path="tts/s3hint.ogg" subtitle_id="mc_vo_s3hint_sub"/>
+		<sound id="mc_vo_s4" path="tts/s4.ogg" subtitle_id="mc_vo_s4_sub"/>
+		<sound id="mc_vo_s4hint" path="tts/s4hint.ogg" subtitle_id="mc_vo_s4hint_sub"/>
+		<sound id="mc_vo_s5" path="tts/s5.ogg" subtitle_id="mc_vo_s5_sub"/>
+		<sound id="mc_vo_s5done" path="tts/s5done.ogg" subtitle_id="mc_vo_s5done_sub"/>
+		<sound id="mc_vo_s6" path="tts/s6.ogg" subtitle_id="mc_vo_s6_sub"/>
+		<sound id="mc_vo_s7" path="tts/s7.ogg" subtitle_id="mc_vo_s7_sub"/>
 	</Sounds>
 	<instance id="crafting_station">
 		<add file="levels/crafting_station/add.xml"/>

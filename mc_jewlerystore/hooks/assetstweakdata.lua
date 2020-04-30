@@ -1,4 +1,4 @@
-Hooks:PostHook( AssetsTweakData, "_init_assets", "santa_pain_assets", function(self, tweak_data)
+Hooks:PostHook( AssetsTweakData, "_init_assets", "mc_jew_assets", function(self, tweak_data)
     self.mcj_crafting_table = {
 	name_id = "ass_crafting_table",
 	texture = "guis/ass_crafting_table",
