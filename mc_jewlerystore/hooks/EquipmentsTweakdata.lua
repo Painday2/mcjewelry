@@ -4,7 +4,7 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 64,
-		transfer_quantity = 1,
+		transfer_quantity = 64,
 		icon = "equipment_cobblestone",
 		text_id = "hud_int_equipment_cobblestone"
 	}
@@ -12,7 +12,7 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 64,
-		transfer_quantity = 1,
+		transfer_quantity = 64,
 		icon = "equipment_stick",
 		text_id = "hud_int_equipment_stick"
 	}
@@ -20,7 +20,7 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 12,
-		transfer_quantity = 1,
+		transfer_quantity = 12,
 		icon = "equipment_ladder",
 		text_id = "hud_int_equipment_ladder"
 	}
@@ -28,7 +28,7 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 5,
-		transfer_quantity = 1,
+		transfer_quantity = 5,
 		icon = "equipment_lever",
 		text_id = "hud_int_equipment_lever"
 	}
@@ -36,7 +36,7 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 5,
-		transfer_quantity = 1,
+		transfer_quantity = 5,
 		icon = "equipment_mc_drill",
 		text_id = "hud_int_equipment_mc_drill"
 	}
@@ -50,7 +50,6 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 	}
 	self.specials.tripwire_key = {
 		sync_possession = true,
-		max_quantity = 1,
 		text_id = "hud_int_equipment_tripwire_key",
 		icon = "equipment_tripwire"
 	}
@@ -58,6 +57,7 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 4,
+		transfer_quantity = 4,
 		text_id = "hud_int_equipment_sand",
 		icon = "equipment_sand"
 	}
@@ -65,6 +65,7 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 5,
+		transfer_quantity = 5,
 		text_id = "hud_int_equipment_gunpowder",
 		icon = "equipment_gunpowder"
 	}

@@ -1,5 +1,9 @@
 <table name="mc_jewlerystore">
-	<level ai_group_type="minecraft" ghost_bonus="0.1" id="mc_jewlerystorelvl" max_bags="54">
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/mcj_icon"/>
+	</AddFiles>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="shovelforge" name_id="contact_shovelforge_name" package="packages/contact_bain"/>
+	<level ai_group_type="minecraft" ghost_bonus="0.1" id="mc_jewlerystorelvl" briefing_dialog="mc_jewelry_brief" max_bags="54">
 		<add file="levels/mc_jewlerystorelvl/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -9,6 +13,7 @@
 			<asset name="mcj_crafting_table"/>
 			<asset name="mcj_resource_cache"/>
 			<asset name="mcj_storage_glass"/>
+			<asset name="mcj_craft_mechanics"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -53,6 +58,7 @@
 			<value_node value="levels/narratives/butcher/friend/editor_only/editor_only"/>
 			<value_node value="levels/instances/unique/cag_computer/world/world"/>
 			<value_node value="levels/instances/unique/vit/vit_security_room/world/world"/>
+			<value_node value="levels/instances/unique/mus_first_barrier/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -95,6 +101,7 @@
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc"/>
 	<Sounds directory="assets/units/pd2_mod_craft/sound">
+		<sound id="mc_jewelry_brief" path="tts/brief.ogg"/>
 		<sound id="mc_armor_take1" path="armorstand/hit1.ogg"/>
 		<sound id="mc_armor_take2" path="armorstand/hit2.ogg"/>
 		<sound id="mc_armor_take3" path="armorstand/hit3.ogg"/>
@@ -164,7 +171,7 @@
 		</include>
 		<packages/>
 	</instance>
-	<narrative contact="custom" id="mc_jewlerystore">
+	<narrative contact="shovelforge" icon="guis/mcj_icon" id="mc_jewlerystore">
 		<chain>
 			<table level_id="mc_jewlerystorelvl" type="d" type_id="heist_type_assault"/>
 		</chain>

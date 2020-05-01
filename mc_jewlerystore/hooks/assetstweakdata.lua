@@ -28,4 +28,11 @@ Hooks:PostHook( AssetsTweakData, "_init_assets", "mc_jew_assets", function(self,
 	no_mystery = true,
 	money_lock = 5000
 	}
+	
+	self.mcj_craft_mechanics = {
+		name_id = "ass_craft_mechanics",
+		texture = "guis/crafting_mechanics",
+		no_mystery = true
+	}
+	
 end)

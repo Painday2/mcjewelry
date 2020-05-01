@@ -1,8 +1,9 @@
 {
 	"heist_mc_jewlerystore_name":		"Jewelry Crafters",
-	"heist_mc_jewlerystore_brief":		" ",
+	"heist_mc_jewlerystore_brief":		"Time to do a classic jewelry heist. Get in, grab the loot, and get out.\n\n» Locate the jewelry store\n» Check the back offices for safe(s)\n» Bag and get the jewelry to the escape car\n» Steal any other valuable in the store",
 	"heist_mc_jewlerystorelvl_name":		"Jewelry Crafters",
-	"heist_mc_jewlerystorelvl_brief":		" ",
+	"heist_mc_jewlerystorelvl_brief":		"This town is a great place to fence jewelry. Easy to move. Minecrafters and Hunger Game winners buying it - no questions asked. This is going to be cake, as long as everyone remembers to bring egg, wheat, and sugar. I'm sure you guys know how to bake cake. Let's get going.",
+	"contact_shovelforge_name":		"Shovelforge",
 	
 	"ass_storage_glass" : "Storage Room Access",
 	"ass_storage_glass_desc" : "An insider has left a window open for you to get easy access into the second floor.",
@@ -10,6 +11,7 @@
 	"ass_resource_cache_desc" : "Select the starter chest to get some resources at the start of the heist.",
 	"ass_crafting_table" : "Extra Crafting Table",
 	"ass_crafting_table_desc" : "Have an insider leave another crafting table behind the Jewelry store for easier access.",
+	"ass_craft_mechanics" : "Crafting guide",
 	
 	"hud_carry_emerald_block" : "Emerald",
 	"hud_carry_diamond_block" : "Diamond",
