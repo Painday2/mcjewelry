@@ -1,9 +1,5 @@
 <table name="mc_jewlerystore">
-	<AddFiles directory="assets">
-		<texture load="true" path="guis/mcj_icon"/>
-	</AddFiles>
-	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="shovelforge" name_id="contact_shovelforge_name" package="packages/contact_bain"/>
-	<level ai_group_type="minecraft" ghost_bonus="0.1" id="mc_jewlerystorelvl" briefing_dialog="mc_jewelry_brief" max_bags="54">
+	<level ai_group_type="minecraft" briefing_dialog="mc_jewelry_brief" ghost_bonus="0.1" id="mc_jewlerystorelvl" max_bags="54">
 		<add file="levels/mc_jewlerystorelvl/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -98,6 +94,9 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/mcj_icon"/>
+	</AddFiles>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc"/>
 	<Sounds directory="assets/units/pd2_mod_craft/sound">
@@ -153,6 +152,7 @@
 		<sound id="mc_vo_s6" path="tts/s6.ogg" subtitle_id="mc_vo_s6_sub"/>
 		<sound id="mc_vo_s7" path="tts/s7.ogg" subtitle_id="mc_vo_s7_sub"/>
 	</Sounds>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="shovelforge" name_id="contact_shovelforge_name" package="packages/contact_bain"/>
 	<instance id="crafting_station">
 		<add file="levels/crafting_station/add.xml"/>
 		<include directory="levels/crafting_station">
