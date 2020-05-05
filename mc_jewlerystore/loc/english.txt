@@ -14,6 +14,8 @@
 	"ass_craft_mechanics" : "Crafting guide",
 	"ass_resource_mechanics" : "Resource guide",
 	
+	"menu_jukebox_screen_music_minecraft_diamonds" : "Shovelforge - Diamond",
+	
 	"hud_carry_emerald_block" : "Emerald",
 	"hud_carry_diamond_block" : "Diamond",
 	"hud_carry_gold_block" : "Gold",

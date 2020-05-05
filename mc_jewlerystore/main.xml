@@ -100,6 +100,7 @@
 	</AddFiles>
 	<AssetUpdates id="27077" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc"/>
+	<MenuMusic id="music_minecraft_diamonds" source="assets/units/pd2_mod_craft/sound/diamond.ogg"/>
 	<Sounds directory="assets/units/pd2_mod_craft/sound">
 		<sound id="mc_jewelry_brief" path="tts/brief.ogg"/>
 		<sound id="mc_armor_take1" path="armorstand/hit1.ogg"/>
