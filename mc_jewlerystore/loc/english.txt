@@ -12,6 +12,7 @@
 	"ass_crafting_table" : "Extra Crafting Table",
 	"ass_crafting_table_desc" : "Have an insider leave another crafting table behind the Jewelry store for easier access.",
 	"ass_craft_mechanics" : "Crafting guide",
+	"ass_resource_mechanics" : "Resource guide",
 	
 	"hud_carry_emerald_block" : "Emerald",
 	"hud_carry_diamond_block" : "Diamond",

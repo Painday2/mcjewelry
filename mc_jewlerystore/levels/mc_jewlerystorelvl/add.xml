@@ -355,6 +355,7 @@
 	<texture path="guis/ass_resource_cache" unload="true"/>
 	<texture path="guis/ass_crafting_table" unload="true"/>
 	<texture path="guis/crafting_mechanics" unload="true"/>
+	<texture path="guis/resource_mechanics" unload="true"/>
 	<add>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36_husk" unload="true"/>

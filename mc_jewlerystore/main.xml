@@ -10,6 +10,7 @@
 			<asset name="mcj_resource_cache"/>
 			<asset name="mcj_storage_glass"/>
 			<asset name="mcj_craft_mechanics"/>
+			<asset name="mcj_resource_mechanics"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
