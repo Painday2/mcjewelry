@@ -114,6 +114,7 @@
 		<texture path="units/pd2_mod_craft/props/textures/cornflower"/>
 		<texture path="units/pd2_mod_craft/props/textures/red_sandstone"/>
 		<texture path="units/pd2_mod_craft/props/textures/wool_brown"/>
+		<texture path="units/pd2_mod_craft/props/textures/nether_bricks"/>
 		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
 		<model path="units/pd2_mod_craft/props/jewelrystore" unload="true"/>
 		<object path="units/pd2_mod_craft/props/jewelrystore" unload="true"/>
