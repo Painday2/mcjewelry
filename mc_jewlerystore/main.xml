@@ -95,16 +95,25 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<Achievements id="mc_jewelry_ach">
-		<achievement id="mc_jewelry_ach_64stick" rank="1"/>
-		<achievement id="mc_jewelry_ach_64cobble" rank="1"/>
-		<achievement id="mc_jewelry_ach_dsstealth" rank="2"/>
-		<achievement id="mc_jewelry_ach_dsloud" rank="2"/>
-		<achievement id="mc_jewelry_ach_civs" rank="3"/>
-		<achievement id="mc_jewelry_ach_secret" rank="4"/>
+	<Achievements id="mc_jewelry_ach"icon="guis/mc_jewelry_ach_package_icon">
+		<achievement id="mc_jewelry_ach_64stick" icon="guis/mc_jewelry_ach_64stick_icon" rank="1"/>
+		<achievement id="mc_jewelry_ach_pickaxe" icon="guis/mc_jewelry_ach_pickaxe_icon" rank="1"/>
+		<achievement id="mc_jewelry_ach_64cobble" icon="guis/mc_jewelry_ach_64cobble_icon" rank="1"/>
+		<achievement id="mc_jewelry_ach_dsstealth" icon="guis/mc_jewelry_ach_dsstealth_icon" rank="2"/>
+		<achievement id="mc_jewelry_ach_dsloud" icon="guis/mc_jewelry_ach_dsloud_icon" rank="2"/>
+		<achievement id="mc_jewelry_ach_civs" icon="guis/mc_jewelry_ach_civs_icon" rank="3"/>
+		<achievement id="mc_jewelry_ach_secret" icon="guis/mc_jewelry_ach_secret_icon" rank="4"/>
 	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/mcj_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_package_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_64cobble_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_64stick_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_civs_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_dsloud_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_dsstealth_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_pickaxe_icon"/>
+		<texture load="true" path="guis/mc_jewelry_ach_secret_icon"/>
 	</AddFiles>
 	<AssetUpdates id="27077" provider="modworkshop" use_local_dir="true" version="1.15"/>
 	<Localization default="english.txt" directory="loc"/>
