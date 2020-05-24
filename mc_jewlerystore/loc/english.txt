@@ -102,6 +102,25 @@
 	"mc_vo_s5_sub" : "Give me a second, gotta install wurst on this...",
 	"mc_vo_s5done_sub" : "Alright, xray says there's something behind the brick wall in that room.",
 	"mc_vo_s6_sub" : "Woah... a vault? how the hell did they keep this secret...",
-	"mc_vo_s7_sub" : "Armor... this is gotta be worth a fortune!"
+	"mc_vo_s7_sub" : "Armor... this is gotta be worth a fortune!",
 	
+	"mc_jewelry_ach_name" : "Jewelry Crafters",
+	"mc_jewelry_ach_secret_name" : "Cover me with Diamonds",
+	"mc_jewelry_ach_secret_desc" : "Diamond armor saves lives!",
+	"mc_jewelry_ach_secret_objective" : "Have any type of diamond armor in your inventory.",
+	"mc_jewelry_ach_dsstealth_name" : "No invisibility potions here!",
+	"mc_jewelry_ach_dsstealth_desc" : "Sneaking around is a rogue's job after all.",
+	"mc_jewelry_ach_dsstealth_objective" : "Complete the heist in stealth on Death Sentence.",
+	"mc_jewelry_ach_dsloud_name" : "Stealth? We don't do that here.",
+	"mc_jewelry_ach_dsloud_desc" : "Maybe next time bring some invisibility potions?",
+	"mc_jewelry_ach_dsloud_objective" : "Complete the heist in loud on Death Sentence.",
+	"mc_jewelry_ach_64stick_name" : "Skipped a Step",
+	"mc_jewelry_ach_64stick_desc" : "Punching trees is a full time job.",
+	"mc_jewelry_ach_64stick_objective" : "Mine 64 sticks in a single heist \n \n There is no difficulty requirement.",
+	"mc_jewelry_ach_64cobble_name" : "Minin away",
+	"mc_jewelry_ach_64cobble_desc" : "I don't know what to mine \n I'll mine this anyway",
+	"mc_jewelry_ach_64cobble_objective" : "Mine 64 cobblestone in a single heist. \n \n There is no difficulty requirement.",
+	"mc_jewelry_ach_civs_name" : "A Professional Heister",
+	"mc_jewelry_ach_civs_desc" : "Unlike some people, you don't kill 56 civilians.",
+	"mc_jewelry_ach_civs_objective" : "Complete the heist without killing any Civilians. \n \n There is no difficulty requirement."
 }

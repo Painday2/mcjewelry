@@ -26,10 +26,10 @@
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
 		<include directory="levels/mc_jewlerystorelvl">
-			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
@@ -95,6 +95,14 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<Achievements id="mc_jewelry_ach">
+		<achievement id="mc_jewelry_ach_64stick" rank="1"/>
+		<achievement id="mc_jewelry_ach_64cobble" rank="1"/>
+		<achievement id="mc_jewelry_ach_dsstealth" rank="2"/>
+		<achievement id="mc_jewelry_ach_dsloud" rank="2"/>
+		<achievement id="mc_jewelry_ach_civs" rank="3"/>
+		<achievement id="mc_jewelry_ach_secret" rank="4"/>
+	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/mcj_icon"/>
 	</AddFiles>
