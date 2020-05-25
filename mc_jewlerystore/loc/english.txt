@@ -122,5 +122,8 @@
 	"mc_jewelry_ach_64cobble_objective" : "Mine 64 cobblestone in a single heist. \n \n There is no difficulty requirement.",
 	"mc_jewelry_ach_civs_name" : "A Professional Heister",
 	"mc_jewelry_ach_civs_desc" : "Unlike some people, you don't kill 56 civilians.",
-	"mc_jewelry_ach_civs_objective" : "Complete the heist without killing any Civilians. \n \n There is no difficulty requirement."
+	"mc_jewelry_ach_civs_objective" : "Complete the heist without killing any Civilians. \n \n There is no difficulty requirement.",
+	"mc_jewelry_ach_pickaxe_name" : "Came Prepared",
+	"mc_jewelry_ach_pickaxe_desc" : "You know what this job requires.",
+	"mc_jewelry_ach_pickaxe_objective" : "Bring an appropriate tool for the job. \n \n There is no difficulty requirement."
 }

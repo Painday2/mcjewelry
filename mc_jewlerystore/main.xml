@@ -13,6 +13,7 @@
 			<asset name="mcj_resource_mechanics"/>
 		</assets>
 		<hooks directory="hooks">
+			<hook file="AchievementManager.lua" source_file="lib/managers/dialogmanager"/>
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
@@ -95,14 +96,14 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<Achievements id="mc_jewelry_ach"icon="guis/mc_jewelry_ach_package_icon">
-		<achievement id="mc_jewelry_ach_64stick" icon="guis/mc_jewelry_ach_64stick_icon" rank="1"/>
-		<achievement id="mc_jewelry_ach_pickaxe" icon="guis/mc_jewelry_ach_pickaxe_icon" rank="1"/>
-		<achievement id="mc_jewelry_ach_64cobble" icon="guis/mc_jewelry_ach_64cobble_icon" rank="1"/>
-		<achievement id="mc_jewelry_ach_dsstealth" icon="guis/mc_jewelry_ach_dsstealth_icon" rank="2"/>
-		<achievement id="mc_jewelry_ach_dsloud" icon="guis/mc_jewelry_ach_dsloud_icon" rank="2"/>
-		<achievement id="mc_jewelry_ach_civs" icon="guis/mc_jewelry_ach_civs_icon" rank="3"/>
-		<achievement id="mc_jewelry_ach_secret" icon="guis/mc_jewelry_ach_secret_icon" rank="4"/>
+	<Achievements icon="guis/mc_jewelry_ach_package_icon" id="mc_jewelry_ach">
+		<achievement icon="guis/mc_jewelry_ach_64stick_icon" id="mc_jewelry_ach_64stick" rank="1"/>
+		<achievement icon="guis/mc_jewelry_ach_pickaxe_icon" id="mc_jewelry_ach_pickaxe" rank="1"/>
+		<achievement icon="guis/mc_jewelry_ach_64cobble_icon" id="mc_jewelry_ach_64cobble" rank="1"/>
+		<achievement icon="guis/mc_jewelry_ach_dsstealth_icon" id="mc_jewelry_ach_dsstealth" rank="2"/>
+		<achievement icon="guis/mc_jewelry_ach_dsloud_icon" id="mc_jewelry_ach_dsloud" rank="2"/>
+		<achievement icon="guis/mc_jewelry_ach_civs_icon" id="mc_jewelry_ach_civs" rank="3"/>
+		<achievement icon="guis/mc_jewelry_ach_secret_icon" id="mc_jewelry_ach_secret" rank="4"/>
 	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/mcj_icon"/>
