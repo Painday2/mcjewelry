@@ -20,6 +20,12 @@
             <interaction enabled="false"/>
             <object    enabled="false"    name="'tripwire'"/>
         </sequence>
+        <sequence editable_state="true" name="'disable_contour'" triggable="true">
+            <material_config    name=" 'units/pd2_mod_craft/material_master' "/> 
+        </sequence>
+        <sequence editable_state="true" name="'enable_contour'" triggable="true">
+            <material_config    name=" 'units/pd2_mod_craft/material_secondary' "/> 
+        </sequence>
     </unit>
 </table>
 
