@@ -8,6 +8,9 @@
 		<unit path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
+		<unit load="true" path="units/pd2_dlc_vr/equipment/prop_cube_diamond_block_vr"/>
+		<unit load="true" path="units/pd2_dlc_vr/equipment/prop_cube_emerald_block_vr"/>
+		<unit load="true" path="units/pd2_dlc_vr/equipment/prop_cube_gold_block_vr"/>
 		<texture path="units/pd2_mod_craft/props/textures/dark_oak_trapdoor"/>
 		<texture path="units/pd2_mod_craft/props/textures/black_shulker_box"/>
 		<texture path="units/pd2_mod_craft/props/textures/bookshelf"/>
