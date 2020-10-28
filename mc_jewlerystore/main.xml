@@ -18,7 +18,6 @@
 			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
-			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="levelstweakdata.lua" source_file="lib/tweak_data/levelstweakdata"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
