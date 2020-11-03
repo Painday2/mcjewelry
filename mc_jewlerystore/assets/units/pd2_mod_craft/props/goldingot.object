@@ -1,5 +1,5 @@
 <dynamic_object>
-	<diesel materials="units/pd2_mod_craft/material_secondary" orientation_object="rp_root" />
+	<diesel materials="units/pd2_mod_craft/material_secondaryjc" orientation_object="rp_root" />
 	<sequence_manager file="units/pd2_mod_craft/props/goldingot" />
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
